@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+li {
+   display:grid;
+   padding-left: 25px;
+   padding-right: 10px ; 
+   font-size: 30px;
+   font-weight:bold;
+   padding-top: 20px;
+   color: #696969;
+}
+
+header {
+ width:100%;
+ height: 80px;
+ display: flex;
+ background-color: #f7f8fa;
+ margin-right: 20px;
+    overflow: hidden;
+ 
+ 
+}
+
+.logo-button {
+    border-width: 0;
+    background: none;
+    width: 197px;
+    display: flex;
+    margin-left:20%;
+}
+
+.logo-text {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: fantasy;
+    font-size: 35px;
+}
+
+
+
+
+
+.exercises {
+    display: flex;
+    flex-direction: row;
+    list-style: circle;
+}
+
+.menu {
+    display: flex;
+}
+
+.photo-div {
+    width: 100%;
+    height: 860px;
+    background-size: 100% auto;
+    background-image: url(../images/background.jpg);
+    text-align: center;
+    font-family: monospace;
+    
+}
+
+.my_name_english {
+    display: block;
+    font-size: 110px;
+    color: #FFFFFF;
+    padding-top: 200px;
+}
+
+.blue_line {
+    color: #12a2e1;
+}
+
+.my_setance {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.github_link_div {
+    color: #FFFFFF;
+    border-color: #12a2e1;
+    border-width: 1px;
+    font-size: 17px;
+    margin: auto;
+    border-style: solid;
+    background: none;
+    height: 57px;
+    border-radius: 3px;
+    width: 180px;
+}
+
+.github_link_text {
+    
+}
+
+
+
+
+
+.describe_myself_div {
+    background-color: #f7f8fa;
+    font-size: 30px;
+    text-align: center;
+    font-family:david;
+    
+}
+
+.describe_myself_paragrpah {
+    font-size: 20px;
+    color: #696969;
+    font-family: monospace;
+}
+
+
+
+.knowledge_div {
+    font-size: 40px;
+    text-align: center;
+    font-family: monospace;
+    
+}
+
+.language_text {
+    padding-right: 780px;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align:middle;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.java_logo {
+    height: 100px;
+    display: inline-block;
+    width: 100px;
+    background-image: url(../images/java.png)
+}
+
+.cpp_logo {
+    height: 100px;
+    display: inline-block;
+    width: 100px;
+    background-image: url(../images/c.png)
+}
+
+footer {
+    width: 100%;
+    background-color: #f7f8fa;
+    height: 100px;
+    
+}
+
+.fb_link {
+    padding-top: 35px;
+    padding-left: 350px;
+}
+
+.sn_name {
+    color: #696969;
+    font-size: 15px;
+    
+    padding-top: 0px;
+}
+
+.menu_link {
+    color: #696969;
+    text-decoration: none;
+}
+
+hover.menu_link {
+    color: #000000;
+    
+}
