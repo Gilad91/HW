@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    list-style-type: none;
+}
+
+.namePage {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width:1024px) {
+    #itm {
+        font-size: 22px;
+        text-align: center;
+        padding-left: 8px;
+        padding-top: 8px;
+        color: white;
+    }
+    #plus {
+        display: inline;
+        padding-top: 35px;
+        padding-left: 5px;
+    }
+    .side-menu {
+        background-color: #201a56;
+        width: 100%;
+        font: none;
+    }
+    .menu-link {
+        display: none;
+    }
+    #order_div {}
+    .fa-home {
+        font-size: 30px;
+    }
+    .fa-tshirt {
+        font-size: 30px;
+    }
+    .fa-truck {
+        font-size: 30px;
+    }
+    .fa-credit-card {
+        font-size: 30px;
+    }
+    .side-menu ul {
+        display: inline;
+        display: flex;
+    }
+    .side-menu ul li {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .header {
+        width: 100%;
+        background-color: #e3e8fe;
+        display: none;
+    }
+    #order_div {
+        display: block;
+        margin-top: 5%;
+        height: 300px;
+        width: 85%;
+        background-color: #ebebec;
+        border-radius: 10px;
+        box-shadow: 2px 2px #000000;
+        list-style-type: none;
+    }
+    .sales-div {
+        float: left;
+        background-color: #fbfbfb;
+        width: 359px;
+        height: 342px;
+        margin-top: 5%;
+        margin-left: 0px;
+        position: absolute;
+        left: 100px;
+    }
+    .friends-div {
+        background-color: #fbfbfb;
+        width: 359px;
+        height: 342px;
+        display: inline;
+        float: right;
+        margin-right: 100px;
+        margin-top: 5%;
+    }
+    .friends-div img {
+        width: 359px;
+    }
+    .sales-div img {
+        width: 359px;
+    }
+    #barco {
+        display: block;
+        margin: auto;
+        margin-top: 10%;
+        height: 250px;
+        width: 85%;
+        margin-left: 0px;
+        background-color: #ebebec;
+        border-radius: 10px;
+        box-shadow: 2px 2px #000000;
+    }
+    .Icons {
+        width: 100px;
+        height: 100px;
+        margin-top: -55px;
+        vertical-align: middle;
+        list-style-type: none;
+    }
+    #cart {
+        display: block;
+        position: absolute;
+        left: 7%;
+        margin-top: 6%;
+        height: 300px;
+        width: 85%;
+        background-color: #ebebec;
+        border-radius: 10px;
+        box-shadow: 2px 2px #000000;
+    }
+}
+
+@media only screen and (min-width:1025px) {
+    #itm {
+        font-size: 22px;
+        text-align: center;
+        padding-left: 12px;
+        padding-top: 6px;
+        color: white;
+    }
+    #plus {
+        display: inline;
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+    .side-menu {
+        background-color: #201a56;
+        width: 15%;
+        height: 100vh;
+        float: left;
+    }
+    .header {
+        width: 100%;
+        background-color: #e3e8fe;
+    }
+    #order_div {
+        display: block;
+        margin: auto;
+        margin-top: 15%;
+        height: 300px;
+        width: 85%;
+        background-color: #ebebec;
+        border-radius: 10px;
+        box-shadow: 2px 2px #000000;
+        list-style-type: none;
+    }
+    .side-menu ul li .menu_link {
+        display: none;
+    }
+    .sales-div {
+        float: left;
+        background-color: #fbfbfb;
+        width: 559px;
+        height: 342px;
+        margin-top: 13%;
+        margin-left: 10%;
+    }
+    .friends-div {
+        background-color: #fbfbfb;
+        width: 559px;
+        height: 342px;
+        display: inline;
+        float: right;
+        margin-right: 2%;
+        margin-top: 13%;
+    }
+    #barco {
+        display: block;
+        margin: auto;
+        margin-top: 15%;
+        height: 300px;
+        width: 85%;
+        background-color: #ebebec;
+        border-radius: 10px;
+        box-shadow: 2px 2px #000000;
+    }
+    .Icons {
+        width: 100px;
+        height: 100px;
+        margin-top: -55px;
+        vertical-align: middle;
+        list-style-type: none;
+    }
+    #cart {
+        display: block;
+        margin: auto;
+        margin-top: 15%;
+        height: 300px;
+        width: 85%;
+        background-color: #ebebec;
+        border-radius: 10px;
+        box-shadow: 2px 2px #000000;
+    }
+}
+
+.side-menu a {
+    background-color: #201a56;
+    color: #79779f;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.side-menu a:hover {
+    color: #000000;
+    background-color: #726d9b;
+}
+
+.side-menu a.active {
+    color: #4CAF50;
+    background-color: #726d9b;
+}
+
+.main {
+    float: right;
+    width: 85%;
+}
+
+body {
+    background-image: url(../images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-menu {
+    background-image: url(../images/logo.jpeg);
+    background-repeat: no-repeat;
+}
+
+.user-area {
+    display: inline;
+    float: right;
+    height: 100%;
+    padding-top: 25px;
+}
+
+.fa-shopping-cart {
+    font-size: 30px;
+}
+
+.menu {
+    display: flex;
+}
+
+.user-menu li {
+    display: inline;
+    padding-left: 25px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #696969;
+}
+
+.user-menu li a:hover {
+    text-decoration: none;
+    color: #696969;
+}
+
+.user-menu {
+    display: inline;
+}
+
+.user-name {
+    padding-right: 15px;
+}
+
+.home-images {
+    margin-top: 15px;
+}
+
+h2 {
+    display: inline;
+}
+
+h3 {
+    padding-top: 2%;
+}
+
+.check-div {
+    background-color: #e3e8fe;
+    float: left;
+    margin-left: 8%;
+    width: 30%;
+    margin-top: 5%;
+    height: 70vh;
+    position: relative;
+}
+
+.check-div h2 {
+    font-size: 40px;
+    padding: auto;
+}
+
+.coin-payment {
+    display: block;
+    background-color: #e3e8fe;
+    float: left;
+    margin-left: 20%;
+    width: 30%;
+    margin-top: 5%;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.coin-payment:hover {
+    cursor: pointer;
+}
+
+.card-payment {
+    display: block;
+    background-color: #e3e8fe;
+    float: left;
+    margin-left: 20%;
+    width: 30%;
+    margin-top: 5%;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.card-payment:hover {
+    cursor: pointer;
+}
+
+.card-text {
+    display: block;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.cards-logo {
+    padding-top: 20%;
+    padding-left: 7%;
+    height: auto;
+    width: auto;
+}
+
+.points-text {
+    display: inline;
+    font-size: 50px;
+    padding-left: 15px;
+}
+
+#pay-points-icon {
+    float: right;
+    font-size: 150px;
+    padding-right: 20px;
+    bottom: 50px;
+}
+
+.side-menu a {
+    background-color: #201a56;
+    color: #79779f;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.side-menu:hover svg path,
+.side-menu a:hover {
+    color: #000000;
+    fill: #000000;
+    background-color: #726d9b;
+}
+
+.side-menu a.active {
+    color: #4CAF50;
+}
+
+.logo-menu {
+    background-image: url(../images/logo.jpeg);
+    background-repeat: no-repeat;
+}
+
+.fas {
+    color: #79779f;
+}
+
+.user-area {
+    display: inline;
+    float: right;
+    height: 100%;
+    padding-top: 25px;
+}
+
+.menu_link {
+    color: #696969;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.user-menu li {
+    display: inline;
+    padding-left: 25px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #696969;
+}
+
+.user-menu li a:hover {
+    text-decoration: none;
+}
+
+.inp {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: auto;
+    padding-top: 8%;
+}
+
+#sizes {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+    height: 300px;
+    width: 85%;
+    background-color: #ebebec;
+    border-radius: 10px;
+    box-shadow: 2px 2px #000000;
+    list-style-type: none;
+}
+
+.text-input {
+    display: block;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.links {
+    font-size: 30px;
+    text-align: left;
+}
+
+#sizes ul {
+    display: flex;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+#sizes ul li {
+    padding-left: 17px;
+}
+
+#arrow {
+    padding-left: 455px;
+    font-size: 35px;
+}
+
+#wait {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+    height: 300px;
+    width: 85%;
+    background-color: #ebebec;
+    border-radius: 10px;
+    box-shadow: 2px 2px #000000;
+}
+
+.wt {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: auto;
+    padding-top: 8%;
+}
+
+.wt2 {
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: auto;
+}
+
+.crt {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: auto;
+    padding-top: 8%;
+}
+
+#items {
+    display: flex;
+    margin: auto;
+    margin-left: 25%;
+    height: 100px;
+    width: 15%;
+    background-color: #00005a;
+    border-radius: 10px;
+    box-shadow: 2px 2px #000000;
+}
+
+#items:hover {
+    cursor: pointer;
+}
+
+#plus-icon {
+    color: rgb(0, 255, 0);
+}
+
+#itm2 {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 14px;
+    color: white;
+}
+
+#items2 {
+    position: relative;
+    height: 100px;
+    width: 15%;
+    background-color: #00005a;
+    border-radius: 10px;
+    box-shadow: 2px 2px #000000;
+    bottom: 98px;
+    margin-left: 60%;
+}
+
+#items2:hover {
+    cursor: pointer;
+}
+
+.swipe {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: auto;
+    padding-top: 8%;
+}
+
+.thankyou {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: auto;
+    padding-top: 8%;
+}
+
+#resize-left-arrow {}
+
+.item-in-check {
+    font-size: 20px;
+}
+
+.price-in-check {
+    float: right;
+}
+
+#resize-right-arrow {
+    padding-left: 10%;
+}
+
+.final-sum {
+    font-size: 200%;
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
